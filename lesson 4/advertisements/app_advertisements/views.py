@@ -9,4 +9,16 @@ def top_sellers(request):
 
 def advertisement_post(request):
     return render(request, "advertisement-post.html")
+
+def advertisement(request):
+    return render(request, "advertisement.html")
+
+def login(request):
+    return render(request, "login.html")
+
+def register(request):
+    return render(request, "register.html")
+
+def profile(request):
+    return render(request, "profile.html")
 # Create your views here.
